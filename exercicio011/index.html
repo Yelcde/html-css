@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com midias em html5</title>
+</head>
+<body>
+    <h1>Imagens flexiveis</h1>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/m.png" type="image/png">
+        <img src="imagens/g.png" alt="imagens flexiveis">
+    </picture>
+
+    <h1>Reproduzindo audios</h1>
+    <p>Vamos a prender a reproduzir audios</p>
+
+    <!--<audio src="midia/Happy Boy Theme - Kevin MacLeod.mp3" autoplay controls></audio>-->
+
+    <audio preload="metadata" controls >
+        <source src="midia/Happy Boy Theme - Kevin MacLeod.mp3" type="audio/mpeg">
+        <source src="midia/Happy Boy Theme - Kevin MacLeod.ogg" type="audio/ogg">
+        <source src="midia/Happy Boy Theme - Kevin MacLeod.wav" type="audio/wav">
+        <p>Caso não tenha aparecido audio, <a href="midia/Happy Boy Theme - Kevin MacLeod.mp3">clique aqui</a></p>
+    </audio>
+</body>
+</html>
