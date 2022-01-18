@@ -5,8 +5,83 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Posicionamento</title>
+    <style>
+        div#d1{
+            height: 32.6vh;
+            background-image: url('imagens/pattern001.png');
+            background-repeat: no-repeat;
+            background-position: left top;
+        }
+        
+        div#d1 > div#fd1{
+            height: 32.6vh;
+            background-image: url('imagens/pattern001.png');
+            background-position: center top;
+            background-repeat: no-repeat;
+        }
+
+        div#d1 > div#fd2{
+            height: 32.6vh;
+            background-image: url('imagens/pattern001.png');
+            background-position: center right;
+            background-repeat: no-repeat;
+        }
+        
+        div#d2{
+            height: 32.6vh;
+            border: 2px dashed black;
+            background-image: url('imagens/pattern001.png');
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+        
+        div#d2 > div#fd1{
+            height: 32.6vh;
+            background-image: url('imagens/pattern001.png');
+            background-position: center left;
+            background-repeat: no-repeat;
+        }
+
+        div#d2 > div#fd2{
+            height: 32.6vh;
+            background-image: url('imagens/pattern001.png');
+            background-position: center bottom;
+            background-repeat: no-repeat;
+        }
+        
+        div#d3{
+            height: 32.6vh;
+            border: 2px dashed black;
+            background-image: url('imagens/pattern001.png');
+            background-repeat: no-repeat;
+            background-position: right bottom;
+        }
+        
+        div#d3 > div#fd1{
+            height: 32.6vh;
+            background-image: url('imagens/pattern001.png');
+            background-position: left bottom;
+            background-repeat: no-repeat;
+        }
+    </style>
 </head>
 <body>
-    
+    <div id='d1'>
+       <div id='fd1'></div>
+       <div id='fd2'></div>
+    </div>
+    <div id='d2'>
+        <div id='fd1'></div>
+        <div id='fd2'></div>
+    </div>
+    <div id='d3'>
+        <div id='fd1'></div>
+    </div>
+    <!--<div>
+        <img src="imagens/pattern001.png" id="2">
+    </div>
+    <div>
+        <img src="imagens/pattern001.png" id="2">
+    </div>-->
 </body>
 </html>
