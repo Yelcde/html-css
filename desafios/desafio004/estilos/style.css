@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+                /* CONFIGURAÇÕES GERAIS */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: darkgray; 
+}
+
+                /* CONFIGURANDO O HEADER */
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1{
+    padding-top: 50px;
+    /* text-transform: uppercase; TRANSFORMAR TEXTO EM MAIUSCULO */
+    font-variant: small-caps; /* TRANSFORMA TEXTO EM MAIUSCULO, MAS DEIXANDO AS PRIMEIRAS MAIORES */
+}
+
+header > p{
+    padding-bottom: 50px;
+}
+
+                /* CONFIGURANDO LINKS */
+
+a.link{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a.link:hover{
+    text-decoration: underline;
+}
+
+                /* CONFIGURANDO SECTIONS */
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section.normal{
+    background-color: white;
+    color: black;
+    padding-left: 50px;
+}
+
+section.imagem{
+    background-color: rgb(78, 78, 78);
+    color: white;
+}
+
+section.imagem > p{
+    background-color: rgba(0, 0, 0, 0.178);
+    width: 260px;
+    padding: 20px;
+}
+
+                /* CONFIGURANDO FOOTER */
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
