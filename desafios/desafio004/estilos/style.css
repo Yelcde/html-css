@@ -75,16 +75,34 @@ section.normal{
     padding-left: 50px;
 }
 
+section.normal > p{
+    padding-bottom: 2em;
+}
+
 section.imagem{
     background-color: rgb(78, 78, 78);
     color: white;
+    background-size: cover;
+    background-position: right center;
+    box-shadow: inset 2px 2px 13px rgba(0, 0, 0, 0.575);
+    background-attachment: fixed;
 }
 
 section.imagem > p{
+    display: inline-block;
     background-color: rgba(0, 0, 0, 0.151);
-    width: 300px;
+    width: 400px;
+    height: 350px;
     padding: 20px;
-    padding-right: 300px;
+    text-shadow: 2px 2px 13px black
+}
+
+section#img01{
+    background-image: url('../imagens/background001.jpg');
+}
+
+section#img02{
+    background-image: url('../imagens/background002.jpg');
 }
 
                 /* CONFIGURANDO FOOTER */
